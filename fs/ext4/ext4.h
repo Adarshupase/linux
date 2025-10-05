@@ -129,7 +129,7 @@ enum SHIFT_DIRECTION {
 
 /*
  * For each criteria, mballoc has slightly different way of finding
- * the required blocks nad usually, higher the criteria the slower the
+ * the required blocks and usually, higher the criteria the slower the
  * allocation.  We start at lower criterias and keep falling back to
  * higher ones if we are not able to find any blocks.  Lower (earlier)
  * criteria are faster.
